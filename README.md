@@ -5,6 +5,7 @@ A structured learning repository for mastering Playwright - a browser automation
 ## Chapters
 
 - **Chapter 01: Basics** - JavaScript fundamentals for Playwright (variables, console, process commands, identifier rules, basic operations)
+- **Chapter 02: JavaScript Concepts** - Core JS concepts (variables, functions, var/let/const, hoisting)
 
 ## Prerequisites
 
@@ -28,6 +29,7 @@ node 01_Basics.js
 | Chapter | Topic |
 |---------|-------|
 | Chapter_01_Basics | JavaScript basics, console commands, variable operations, identifier rules |
+| Chapter_02_Javascript_concepts | Variables (var/let/const), functions, hoisting |
 
 ---
 
