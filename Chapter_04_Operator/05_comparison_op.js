@@ -19,5 +19,7 @@
 
 // console.log("" == "0"); // return false - transitivity broken -- both compared as it is 
 // console.log(null == 0); // false
-console.log(null == undefined); // true
-console.log(null === undefined); // false
+// console.log(null == undefined); // true
+// console.log(null === undefined); // false
+console.log(5 !== "5");// true
+console.log(5 !== "5"); // false -- not same 
