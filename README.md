@@ -9,6 +9,9 @@ A structured learning repository for mastering Playwright - a browser automation
 - **Chapter 03: Literals** - JavaScript literal types, null vs undefined, number types & bases, string literals, hoisting & TDZ
 - **Chapter 04: Operators** - Arithmetic, modulus, compound assignment, comparison, confusing comparisons, logical operators
 - **Chapter 05: Conditionals** - if/else, truthy/falsy, practice questions (even-odd, student grades, leap year)
+- **Chapter 06: Switch** - switch statement basics and usage
+- **Chapter 07: User Input** - handling user input in JavaScript
+- **Chapter 08: Loops** - for loops, while loops, do-while, interview questions
 
 ## Prerequisites
 
@@ -36,6 +39,9 @@ node 01_Basics.js
 | Chapter_03_Literal | Literal types, null vs undefined, number bases, string literals, template literals, hoisting & TDZ |
 | Chapter_04_Operator | Arithmetic, modulus, compound assignment, comparison operators, confusing comparisons, logical operators |
 | Chapter_05_conditionals | If/else, truthy/falsy, practice questions (even-odd, student grades, leap year) |
+| Chapter_06_switch_js | Switch statement basics and usage |
+| Chapter_07_userinput | Handling user input in JavaScript |
+| Chapter_08_Loops | For loops, while loops, do-while, interview questions |
 
 ---
 
