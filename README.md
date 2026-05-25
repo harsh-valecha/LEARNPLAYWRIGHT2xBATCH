@@ -12,6 +12,7 @@ A structured learning repository for mastering Playwright - a browser automation
 - **Chapter 06: Switch** - switch statement basics and usage
 - **Chapter 07: User Input** - handling user input in JavaScript
 - **Chapter 08: Loops** - for loops, while loops, do-while, interview questions
+- **Chapter 09: Arrays** - array creation, access, modification, adding/removing elements, searching, iteration, transformation
 
 ## Prerequisites
 
@@ -42,6 +43,7 @@ node 01_Basics.js
 | Chapter_06_switch_js | Switch statement basics and usage |
 | Chapter_07_userinput | Handling user input in JavaScript |
 | Chapter_08_Loops | For loops, while loops, do-while, interview questions |
+| Chapter_09_Arrays | Array creation, access, modification, adding/removing, searching, iteration, transformation |
 
 ---
 
