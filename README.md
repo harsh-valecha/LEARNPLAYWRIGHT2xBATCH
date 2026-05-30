@@ -13,6 +13,7 @@ A structured learning repository for mastering Playwright - a browser automation
 - **Chapter 07: User Input** - handling user input in JavaScript
 - **Chapter 08: Loops** - for loops, while loops, do-while, interview questions
 - **Chapter 09: Arrays** - array creation, access, modification, adding/removing elements, searching, iteration, transformation
+- **Chapter 10: Functions** - function basics, practice exercises, arrow functions
 
 ## Prerequisites
 
@@ -44,6 +45,7 @@ node 01_Basics.js
 | Chapter_07_userinput | Handling user input in JavaScript |
 | Chapter_08_Loops | For loops, while loops, do-while, interview questions |
 | Chapter_09_Arrays | Array creation, access, modification, adding/removing, searching, iteration, transformation |
+| Chapter_10_functions | Function basics, practice exercises, arrow functions |
 
 ---
 
