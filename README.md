@@ -15,6 +15,7 @@ A structured learning repository for mastering Playwright - a browser automation
 - **Chapter 09: Arrays** - array creation, access, modification, adding/removing elements, searching, iteration, transformation
 - **Chapter 10: Functions** - function basics, practice exercises, arrow functions
 - **Chapter 11: Closures** - closure introduction, real-world examples, practice exercises
+- **Chapter 12: Strings** - string basics, properties, search, substring, transformation, conversion, palindrome practice
 
 ## Prerequisites
 
@@ -48,6 +49,7 @@ node 01_Basics.js
 | Chapter_09_Arrays | Array creation, access, modification, adding/removing, searching, iteration, transformation |
 | Chapter_10_functions | Function basics, practice exercises, arrow functions, IIFE, default params, spread, pure functions |
 | Chapter_11_Closures | Closure introduction, real-world examples, practice exercises |
+| Chapter_12_Strings | String basics, properties, search methods, substring, transformation, conversion, palindrome |
 
 ---
 
