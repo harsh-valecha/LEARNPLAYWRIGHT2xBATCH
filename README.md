@@ -16,7 +16,7 @@ A structured learning repository for mastering Playwright - a browser automation
 - **Chapter 10: Functions** - function basics, practice exercises, arrow functions
 - **Chapter 11: Closures** - closure introduction, real-world examples, practice exercises
 - **Chapter 12: Strings** - string basics, properties, search, substring, transformation, conversion, palindrome practice
-- **Chapter 13: Objects** - object basics, creation, properties & methods, usage, practice exercises
+- **Chapter 13: Objects** - object basics, creation, properties & methods, usage, destructuring, multilevel objects, copying, methods, interview questions
 
 ## Prerequisites
 
@@ -51,7 +51,7 @@ node 01_Basics.js
 | Chapter_10_functions | Function basics, practice exercises, arrow functions, IIFE, default params, spread, pure functions |
 | Chapter_11_Closures | Closure introduction, real-world examples, practice exercises |
 | Chapter_12_Strings | String basics, properties, search methods, substring, transformation, conversion, palindrome |
-| Chapter_13_Objects | Object basics, creation, properties & methods, usage, practice exercises |
+| Chapter_13_Objects | Object basics, creation, properties & methods, usage, destructuring, multilevel objects, copy, methods, interview questions |
 
 ---
 
