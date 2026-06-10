@@ -18,6 +18,7 @@ A structured learning repository for mastering Playwright - a browser automation
 - **Chapter 12: Strings** - string basics, properties, search, substring, transformation, conversion, palindrome practice
 - **Chapter 13: Objects** - object basics, creation, properties & methods, usage, destructuring, multilevel objects, copying, methods, interview questions
 - **Chapter 14: Multi-Dimensional Arrays** - 2D arrays/grids, nested loops, real-world test matrices, map/reduce on 2D arrays, filtering failures, pyramid pattern interview questions
+- **Chapter 15: Callbacks** - callback functions, passing functions as arguments, synchronous vs asynchronous callbacks (setTimeout, forEach), Playwright-style test callbacks, callback hell (nested callbacks), callbacks with parameters & return values
 
 ## Prerequisites
 
@@ -54,6 +55,7 @@ node 01_Basics.js
 | Chapter_12_Strings | String basics, properties, search methods, substring, transformation, conversion, palindrome |
 | Chapter_13_Objects | Object basics, creation, properties & methods, usage, destructuring, multilevel objects, copy, methods, interview questions |
 | Chapter_14_multi_dim_array | 2D arrays & grids, nested loops, real-world test matrices, map/reduce on 2D, filtering failures, pyramid pattern |
+| Chapter_15_Callback | Callback functions, sync/async callbacks, setTimeout/forEach, callback hell, callbacks with parameters & return values |
 
 ---
 
