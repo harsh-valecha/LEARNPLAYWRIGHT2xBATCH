@@ -21,6 +21,7 @@ A structured learning repository for mastering Playwright - a browser automation
 - **Chapter 15: Callbacks** - callback functions, passing functions as arguments, synchronous vs asynchronous callbacks (setTimeout, forEach), Playwright-style test callbacks, callback hell (nested callbacks), callbacks with parameters & return values
 - **Chapter 16: Promises** - creating promises, resolve/reject, then/catch/finally, promise chaining, Promise.all, Promise.allSettled, interview questions
 - **Chapter 17: Async Await** - async/await syntax basics and usage
+- **Coding Questions Practice** - solved coding exercises (user input, multiplication table, grade calculator, leap year checker, vowels/consonants count, prime number checker, duplicate characters)
 
 ## Prerequisites
 
@@ -60,6 +61,7 @@ node 01_Basics.js
 | Chapter_15_Callback | Callback functions, sync/async callbacks, setTimeout/forEach, callback hell, callbacks with parameters & return values |
 | Chapter_16_promise | Creating promises, resolve/reject, then/catch/finally, promise chaining, Promise.all, Promise.allSettled, interview questions |
 | Chapter_17_Aync_Await | Async/await syntax basics and usage |
+| Coding_questions_practice | Solved coding exercises: user input, multiplication table, grade calculator, leap year checker, vowels/consonants count, prime number checker, duplicate characters |
 
 ---
 
