@@ -21,7 +21,7 @@ A structured learning repository for mastering Playwright - a browser automation
 - **Chapter 15: Callbacks** - callback functions, passing functions as arguments, synchronous vs asynchronous callbacks (setTimeout, forEach), Playwright-style test callbacks, callback hell (nested callbacks), callbacks with parameters & return values
 - **Chapter 16: Promises** - creating promises, resolve/reject, then/catch/finally, promise chaining, Promise.all, Promise.allSettled, interview questions
 - **Chapter 17: Async Await** - async/await syntax basics, try/catch/finally error handling, sequential vs parallel promise execution, E2E test flow simulation, interview questions
-- **Chapter 19: Playwright Basics** - Playwright setup, available scripts (version, test, install browsers, codegen, show report)
+- **Chapter 19: Playwright Basics** - Playwright setup, project configuration, sample E2E test for TTA Cart, headless/headed execution, HTML report, GitHub Actions CI
 - **Coding Questions Practice** - solved coding exercises (user input, multiplication table, grade calculator, leap year checker, vowels/consonants count, prime number checker, duplicate characters)
 
 ## Prerequisites
@@ -43,8 +43,11 @@ node 01_Basics.js
 # Run Playwright examples
 cd Chapter_19_playwright_basics
 npm install
-npm run version
-npm run test
+npx playwright install          # Install browsers (first time only)
+npm run version                 # Show Playwright version
+npm run test                    # Run tests headless
+npx playwright test --headed    # Run tests in headed mode
+npm run show:report             # Open the HTML test report
 ```
 
 ## Project Structure
@@ -75,11 +78,22 @@ LEARNPLAYWRIGHT2xBATCH/
 │   ├── 05_aa_seq.js
 │   ├── 06_aa_parallel.js
 │   └── 07_IQ.js
-├── Chapter_19_playwright_basics/  # Playwright installation and CLI scripts
+├── Chapter_19_playwright_basics/  # Playwright installation, config, tests and CI
+│   ├── .github/
+│   │   └── workflows/
+│   │       └── playwright.yml     # GitHub Actions workflow
+│   ├── tests/
+│   │   └── example.spec.ts        # Sample E2E test (TTA Cart title verification)
+│   ├── playwright.config.ts       # Playwright test configuration
 │   ├── package.json
 │   └── .gitignore
 └── Coding_questions_practice/     # Solved JavaScript coding exercises
 ```
+
+## Continuous Integration
+
+Playwright tests are run automatically via GitHub Actions on every push and pull request to `main`/`master`.
+See `.github/workflows/playwright.yml` in `Chapter_19_playwright_basics` for details.
 
 ## Contents
 
@@ -102,7 +116,7 @@ LEARNPLAYWRIGHT2xBATCH/
 | Chapter_15_Callback | Callback functions, sync/async callbacks, setTimeout/forEach, callback hell, callbacks with parameters & return values |
 | Chapter_16_promise | Creating promises, resolve/reject, then/catch/finally, promise chaining, Promise.all, Promise.allSettled, interview questions |
 | Chapter_17_Aync_Await | Async/await syntax, try/catch/finally, sequential vs parallel execution, E2E flow simulation, interview questions |
-| Chapter_19_playwright_basics | Playwright setup and CLI scripts (version, test, install browsers, codegen, show report) |
+| Chapter_19_playwright_basics | Playwright setup, config, sample E2E test (TTA Cart), headless/headed execution, HTML report, GitHub Actions CI |
 | Coding_questions_practice | Solved coding exercises: user input, multiplication table, grade calculator, leap year checker, vowels/consonants count, prime number checker, duplicate characters |
 
 ---
