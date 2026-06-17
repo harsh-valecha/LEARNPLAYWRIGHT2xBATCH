@@ -20,7 +20,8 @@ A structured learning repository for mastering Playwright - a browser automation
 - **Chapter 14: Multi-Dimensional Arrays** - 2D arrays/grids, nested loops, real-world test matrices, map/reduce on 2D arrays, filtering failures, pyramid pattern interview questions
 - **Chapter 15: Callbacks** - callback functions, passing functions as arguments, synchronous vs asynchronous callbacks (setTimeout, forEach), Playwright-style test callbacks, callback hell (nested callbacks), callbacks with parameters & return values
 - **Chapter 16: Promises** - creating promises, resolve/reject, then/catch/finally, promise chaining, Promise.all, Promise.allSettled, interview questions
-- **Chapter 17: Async Await** - async/await syntax basics and usage
+- **Chapter 17: Async Await** - async/await syntax basics, try/catch/finally error handling, sequential vs parallel promise execution, E2E test flow simulation, interview questions
+- **Chapter 19: Playwright Basics** - Playwright setup, available scripts (version, test, install browsers, codegen, show report)
 - **Coding Questions Practice** - solved coding exercises (user input, multiplication table, grade calculator, leap year checker, vowels/consonants count, prime number checker, duplicate characters)
 
 ## Prerequisites
@@ -36,8 +37,48 @@ git clone <repo-url>
 # Navigate to a chapter
 cd Chapter_01_Basics
 
-# Run a script
+# Run a JavaScript file
 node 01_Basics.js
+
+# Run Playwright examples
+cd Chapter_19_playwright_basics
+npm install
+npm run version
+npm run test
+```
+
+## Project Structure
+
+```
+LEARNPLAYWRIGHT2xBATCH/
+├── Chapter_01_Basics
+├── Chapter_02_Javascript_concepts
+├── Chapter_03_Literal
+├── Chapter_04_Operator
+├── Chapter_05_conditionals
+├── Chapter_06_switch_js
+├── Chapter_07_userinput
+├── Chapter_08_Loops
+├── Chapter_09_Arrays
+├── Chapter_10_functions
+├── Chapter_11_Closures
+├── Chapter_12_Strings
+├── Chapter_13_Objects
+├── Chapter_14_multi_dim_array
+├── Chapter_15_Callback
+├── Chapter_16_promise
+├── Chapter_17_Aync_Await/         # Async/await examples and interview questions
+│   ├── 01_aync.js
+│   ├── 02_simple_ex.js
+│   ├── 03_pyaramid_doom.js
+│   ├── 04_basic.js
+│   ├── 05_aa_seq.js
+│   ├── 06_aa_parallel.js
+│   └── 07_IQ.js
+├── Chapter_19_playwright_basics/  # Playwright installation and CLI scripts
+│   ├── package.json
+│   └── .gitignore
+└── Coding_questions_practice/     # Solved JavaScript coding exercises
 ```
 
 ## Contents
@@ -60,7 +101,8 @@ node 01_Basics.js
 | Chapter_14_multi_dim_array | 2D arrays & grids, nested loops, real-world test matrices, map/reduce on 2D, filtering failures, pyramid pattern |
 | Chapter_15_Callback | Callback functions, sync/async callbacks, setTimeout/forEach, callback hell, callbacks with parameters & return values |
 | Chapter_16_promise | Creating promises, resolve/reject, then/catch/finally, promise chaining, Promise.all, Promise.allSettled, interview questions |
-| Chapter_17_Aync_Await | Async/await syntax basics and usage |
+| Chapter_17_Aync_Await | Async/await syntax, try/catch/finally, sequential vs parallel execution, E2E flow simulation, interview questions |
+| Chapter_19_playwright_basics | Playwright setup and CLI scripts (version, test, install browsers, codegen, show report) |
 | Coding_questions_practice | Solved coding exercises: user input, multiplication table, grade calculator, leap year checker, vowels/consonants count, prime number checker, duplicate characters |
 
 ---

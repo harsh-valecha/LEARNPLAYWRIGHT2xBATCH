@@ -1,0 +1,20 @@
+{
+  "name": "chapter_19_playwright_basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "version": "playwright --version",
+    "test": "playwright test",
+    "install:browsers": "playwright install",
+    "codegen": "playwright codegen",
+    "show:report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.60.0"
+  }
+}
