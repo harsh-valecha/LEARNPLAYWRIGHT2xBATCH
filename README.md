@@ -22,6 +22,7 @@ A structured learning repository for mastering Playwright - a browser automation
 - **Chapter 16: Promises** - creating promises, resolve/reject, then/catch/finally, promise chaining, Promise.all, Promise.allSettled, interview questions
 - **Chapter 17: Async Await** - async/await syntax basics, try/catch/finally error handling, sequential vs parallel promise execution, E2E test flow simulation, interview questions
 - **Chapter 19: Playwright Basics** - Playwright setup, project configuration, sample E2E test for TTA Cart, headless/headed execution, HTML report, GitHub Actions CI
+- **Chapter 20: TypeScript** - Named exports, default exports, import aliasing (`as`), classes, OOP concepts (constructor, this, private, static, encapsulation, interface, inheritance, abstraction, polymorphism)
 - **Coding Questions Practice** - solved coding exercises (user input, multiplication table, grade calculator, leap year checker, vowels/consonants count, prime number checker, duplicate characters)
 
 ## Prerequisites
@@ -87,6 +88,15 @@ LEARNPLAYWRIGHT2xBATCH/
 │   ├── playwright.config.ts       # Playwright test configuration
 │   ├── package.json
 │   └── .gitignore
+├── Chapter_20_typescript/         # Export/import, classes, OOP concepts
+│   ├── 01_basics_oops.js          # Overview of export/import and OOP concepts
+│   ├── 01_testutils.js            # Named exports (BASE_URL, formatTestName)
+│   ├── 02_utils.js                # Named exports for utility functions
+│   ├── 03_logger.js               # Default + named exports
+│   ├── 04_logger_import.js        # Importing default and named exports
+│   ├── 05_classes.js              # OOP class basics
+│   ├── EXPORT_IMPORT.js           # Import aliasing with `as`
+│   └── explain_default.md         # Named vs default export documentation
 └── Coding_questions_practice/     # Solved JavaScript coding exercises
 ```
 
@@ -117,6 +127,7 @@ See `.github/workflows/playwright.yml` in `Chapter_19_playwright_basics` for det
 | Chapter_16_promise | Creating promises, resolve/reject, then/catch/finally, promise chaining, Promise.all, Promise.allSettled, interview questions |
 | Chapter_17_Aync_Await | Async/await syntax, try/catch/finally, sequential vs parallel execution, E2E flow simulation, interview questions |
 | Chapter_19_playwright_basics | Playwright setup, config, sample E2E test (TTA Cart), headless/headed execution, HTML report, GitHub Actions CI |
+| Chapter_20_typescript | Named exports, default exports, import aliasing (`as`), classes, OOP concepts (constructor, this, private, static, encapsulation, interface, inheritance, abstraction, polymorphism) |
 | Coding_questions_practice | Solved coding exercises: user input, multiplication table, grade calculator, leap year checker, vowels/consonants count, prime number checker, duplicate characters |
 
 ---
