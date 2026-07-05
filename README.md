@@ -71,9 +71,15 @@ Ensure you have the following installed:
 | **20** | **JS OOPS** | Object-Oriented Programming: Classes, constructors, inheritance, and prototype-based inheritance. |
 | **21** | **TypeScript** | Introduction to static typing: Type annotations, compilation from TS to JS, and basic TS syntax. |
 | **22** | **TS Interfaces** | Defining structural contracts: Interfaces, optional properties, read-only properties, and type checking. |
+| **23** | **TS Enums** | Working with enumerated types: Numeric, string, and heterogeneous enums, and their use cases. |
+| **24** | **TS Generics** | Reusable type-safe components: Generic functions, interfaces, and classes for flexible yet type-safe code. |
+| **25** | **Public, Private, Protected** | Access modifiers in TypeScript: Controlling visibility and encapsulation in classes. |
+| **26** | **Type Decorators** | Advanced TypeScript: Using decorators to modify class behavior and metadata reflection. |
 
 ### 🎯 Practice & Application
 - **Coding Questions Practice**: A dedicated folder containing algorithmic challenges and logic puzzles to apply everything learned across all chapters.
+
+Note: Coding questions practice changes should be mentioned last in contents as well as Chapters in the readme file.
 
 ---
 
@@ -132,6 +138,10 @@ npx playwright test
 ├── Chapter_20_JS_OOPS/             # OOP Classes & Inheritance
 ├── Chapter_21_Typescript/          # TS Basics
 ├── Chapter_22_TS_Interfaces/       # TS Interfaces
+├── Chapter_23_Typescript_enums/     # TS Enums
+├── Chapter_24_Typescript_generic/   # TS Generics
+├── Chapter_25_Public_Private_Protected/ # TS Access Modifiers
+├── Chapter_26_Type_decorator/       # TS Decorators
 └── Coding_questions_practice/      # Algorithmic Challenges
 ```
 
